@@ -7,6 +7,8 @@ Creating a simple todo application on a website) - no database, so your todos ar
 Angular-cli (Bootstrap added via npm)
 Navigate to my-app and then in the command prompt write: ng serve --open
 
+Type: localhost:4200 in your browser, if your browser does not automatically open it up for you.
+
 Inspiration from this site:
 https://www.youtube.com/watch?v=Gx6F69YJOCo&index=1&list=LLmwKAsh3VztVJkTkg_S2jOQ&t=2235s
 
@@ -26,12 +28,18 @@ mongod --dbpath ~/path/to/your/app/data
 (this needs to be called inside the your bin folder in your mongodb server (eg. C:Program Files ....))
 
 Then open MongoDB Compass and connect to the default localhost. Now run the website: nodemon server.js
+Type: localhost:3000 in your browser
 
 Inspiration for this site:
 https://www.youtube.com/watch?v=HakOBAbIfug&index=3&list=LLmwKAsh3VztVJkTkg_S2jOQ&t=0s
 
 ## python-flask-app
 (Creating a simple website, where the user as a start needs to Register to login to check out the website content)
+
+Python Flask (Bootstrap is used a lot in this application)
+Navigate to my-app and then in the command prompt write: python app.py
+
+Type: localhost:5000 in your browser
 
 Inspiration for this site:
 https://www.youtube.com/watch?v=zRwy8gtgJ1A&index=2&list=LLmwKAsh3VztVJkTkg_S2jOQ&t=2s
